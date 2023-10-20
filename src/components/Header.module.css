@@ -1,0 +1,30 @@
+.header{
+    background-color: #25142D;
+    height: 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.logo{
+    width: 13vw;
+    margin-left: 3vw;
+}
+.icone{
+    width: 3vw;
+    transition: 1s;
+
+}
+.icone:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}

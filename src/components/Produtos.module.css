@@ -1,0 +1,73 @@
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+#bgcard{
+    background-image: url("/public/foto1.webp");
+    background-size: cover;
+    /*background-position: center center;*/
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw 2vw 0 0;
+
+}
+.preco{
+    font-size: 2vw;
+
+}
+.cardtitulo{
+    font-size: 1.5vw;
+}
+#bgcard2{
+    background-image: url("/public/foto2.png");
+    background-size: cover;
+    /*background-position: center center;*/
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw 2vw 0 0;
+
+}
+#bgcard3{
+    background-image: url("/public/foto3.png");
+    background-size: cover;
+    background-position: center;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw 2vw 0 0;
+}
+.vendidos{
+    margin-left: 5vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.vejamais{
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+.cardinfo{
+    border-radius: 0 0 2vw 2vw;
+    -webkit-box-shadow: 0px 43px 33px -10px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 43px 33px -10px rgba(0,0,0,0.27);
+    box-shadow: 0px 43px 33px -10px rgba(0,0,0,0.27);
+    text-align: center;
+    padding-bottom: 1vw;
+    margin-bottom: 3vw;
+}
+#bgcard4{
+    background-image: url("/public/foto4.png");
+    background-size: cover;
+    background-position: top;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw 2vw 0 0;
+}
+.card{
+}
+.arruma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

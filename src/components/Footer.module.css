@@ -1,0 +1,32 @@
+.footer{
+    background-color: #25142D;
+    height: 8vw;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.linha{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.logo{
+    width: 13vw;
+    margin-left: 3vw;
+    margin-top: 0.6vw;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
